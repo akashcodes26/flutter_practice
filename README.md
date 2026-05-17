@@ -1,2 +1,2 @@
-# flutter_practice
+# Flutter_practice
 Daily Flutter practice and learning examples.
