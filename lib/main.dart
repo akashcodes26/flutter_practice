@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'screen/Appbar.dart';
+import 'screen/profileCard.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  
 
   // This widget is the root of your application.
   @override
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Myappbar_Screen(),
+      home: profileCard_Screen(),
     );
   }
 }
