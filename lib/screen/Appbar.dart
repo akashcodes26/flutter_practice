@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learning/screen/preferredSize.dart';
 
 class Myappbar_Screen extends StatelessWidget {
+  const Myappbar_Screen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("My Appbar Screen..",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),
-        selectionColor: Colors.black,),
-        backgroundColor: Colors.orangeAccent,
-        centerTitle: true,
-        actions: [IconButton(icon: Icon(Icons.search),onPressed: (){},),IconButton(icon: Icon(Icons.search),onPressed: (){},),
-        ],
-      ),
+      appBar: Myappbar1(),
     );
   }
 }
